@@ -31,5 +31,4 @@ def is_balanced(string):
             
     return  True if stack.is_empty() else position_stack.top()
 file = open("test.txt", "r")
-print(is_balanced(str(file.read())))
-print(is_balanced("()[]}"))
+print(is_balanced("some input"))
